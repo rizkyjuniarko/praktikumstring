@@ -37,3 +37,20 @@ print("Text menjadi huruf kecil adalah", txt.lower())
 Point 7 "Ganti karakter H dengan karakter J" dengan mengetikkan :
 print("Text dengan mengganti karakter H dengan J adalah", txt.replace("H", "J")) dengan mengetikkan :
 ![gambar7](screenshoot/ss7.png)
+
+
+# Latihan 2
+• Lengkapi kode berikut:
+umur = 24
+txt = 'Hello, nama saya john, dan umur saya adalah
+... tahun'
+print(txt.format(umur))
+
+maka kita tambahkan "{}" menjadi :
+
+umur = 24
+txt = 'Hello, nama saya john, dan umur saya adalah {} tahun'
+print(txt.format(umur))
+
+maka outputnya akan menjadi :
+![gambar8](screenshoot/ss8.png)
